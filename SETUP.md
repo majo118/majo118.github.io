@@ -97,7 +97,7 @@ git init
 git add .
 git commit -m "chore: bootstrap Lumina chat"
 git branch -M main
-git remote add origin https://github.com/<tu-usuario>/lumina-chat.git
+git remote add origin https://github.com/majo118/lumina-chat.git
 git push -u origin main
 ```
 
