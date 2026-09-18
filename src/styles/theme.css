@@ -1,0 +1,58 @@
+/* ============================================================
+   Lumina — Design tokens
+   Paleta derivada del logo (luciérnaga en tonos rosa + glow amarillo)
+   ============================================================ */
+
+:root {
+  /* Marca */
+  --lumina-brand:            #741b47;   /* magenta profundo — nombre "Lumina" */
+  --lumina-brand-hover:      #5c1539;
+  --lumina-brand-soft:       #a15274;
+
+  /* Rosados del cuerpo del logo */
+  --lumina-pink-50:          #fdf3f6;
+  --lumina-pink-100:         #f9e0e8;
+  --lumina-pink-200:         #f0c3d1;
+  --lumina-pink-300:         #e2a3b7;
+  --lumina-pink-400:         #d4899f;
+  --lumina-pink-500:         #b8697f;
+
+  /* Glow (el brillo amarillo abdomen) */
+  --lumina-glow-100:         #fef6d6;
+  --lumina-glow-300:         #f9e28a;
+  --lumina-glow-500:         #f5c94e;
+
+  /* Neutros */
+  --lumina-bg:               #fffafb;   /* fondo app */
+  --lumina-surface:          #ffffff;   /* cards, sidebar */
+  --lumina-surface-alt:      #faeef2;   /* mensajes usuario, hover */
+  --lumina-border:           #f0dde3;
+  --lumina-text:             #2a1922;
+  --lumina-text-soft:        #6b4a56;
+  --lumina-text-muted:       #9a7d88;
+
+  /* Semánticos */
+  --lumina-danger:           #c0392b;
+  --lumina-success:          #2c8a5a;
+
+  /* Radios y sombras */
+  --radius-sm:               8px;
+  --radius-md:               12px;
+  --radius-lg:               16px;
+  --radius-xl:               24px;
+  --radius-pill:             999px;
+
+  --shadow-sm:               0 1px 2px rgba(116, 27, 71, 0.06);
+  --shadow-md:               0 4px 12px rgba(116, 27, 71, 0.10);
+  --shadow-lg:               0 12px 32px rgba(116, 27, 71, 0.14);
+  --shadow-glow:             0 0 24px rgba(245, 201, 78, 0.35);
+
+  /* Tipografía */
+  --font-brand:              'Railey', 'Raleway', 'Segoe Script', cursive;
+  --font-body:               ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono:               ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Layout */
+  --sidebar-w:               280px;
+  --header-h:                60px;
+}

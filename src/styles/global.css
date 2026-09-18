@@ -1,0 +1,46 @@
+@import './fonts.css';
+@import './theme.css';
+
+* { box-sizing: border-box; }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--lumina-text);
+  background: var(--lumina-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--lumina-brand);
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, textarea, button {
+  font-family: inherit;
+  font-size: 1rem;
+  color: inherit;
+}
+
+.brand-text {
+  font-family: var(--font-brand);
+  color: var(--lumina-brand);
+  letter-spacing: 0.5px;
+}
+
+/* Scrollbar sutil */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: var(--lumina-pink-200); border-radius: var(--radius-pill); }
+::-webkit-scrollbar-track { background: transparent; }

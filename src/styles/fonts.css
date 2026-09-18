@@ -1,0 +1,21 @@
+/* ============================================================
+   Fonts
+   ------------------------------------------------------------
+   1) Railey — para el nombre "Lumina". Es una tipografía de pago
+      (o gratis para uso personal según licencia). Coloca los
+      archivos en /public/fonts/Railey.woff2 (y .woff) y se cargará.
+   2) Raleway — fallback público desde Google Fonts, por si Railey
+      no está disponible.
+   3) System sans para el cuerpo.
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Railey';
+  src: url('./../../public/fonts/Railey.woff2') format('woff2'),
+       url('./../../public/fonts/Railey.woff')  format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

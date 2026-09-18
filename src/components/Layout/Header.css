@@ -1,0 +1,43 @@
+.lumina-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-h);
+  padding: 0 1rem;
+  background: var(--lumina-surface);
+  border-bottom: 1px solid var(--lumina-border);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.lumina-header__left,
+.lumina-header__right {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.lumina-header__menu {
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
+  color: var(--lumina-brand);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  display: none;
+}
+
+.lumina-header__user {
+  color: var(--lumina-text-soft);
+  font-size: 0.9rem;
+  max-width: 200px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 720px) {
+  .lumina-header__menu { display: inline-flex; }
+  .lumina-header__user { display: none; }
+}
